@@ -14,11 +14,11 @@ Clients peuvent se connecter avec un port spécifique.
 
 - Vous entrez votre nom et vous êtes connecté
 
-> Pour vous déconnecter : `Ctrl + c`.
+Pour vous déconnecter : `Ctrl + c`.
 
-> Le numéro de port est 6000 mais vous pouvez mettre le port de votre choix
+Le numéro de port est 6000 mais vous pouvez mettre le port de votre choix
 
-> `ncat` est la commande sous windows, `nc` est la commande sous linux
+`ncat` est la commande sous windows, `nc` est la commande sous linux
 
 > ⚠️Si la commande `ncat` ne marche, c'est probablement qu'elle n'est pas installée,
 vous devrez donc l'installer ou utiliser `telnet` à la place, mais je déconseille
@@ -55,11 +55,11 @@ fortement car elle peut apporter de nombreux bugs.
 
 On implémente Runnable pour pouvoir se servir de Thread.
 
-> `sClient` : attribut de type Socket qui fait référence au Socket de la classe ServeurSimple
+`sClient` : attribut de type Socket qui fait référence au Socket de la classe ServeurSimple
 
-> `lstClientPartage` : attribut de type ArrayList de Client qui fait référence à la liste de la classe ServeurSimple
+`lstClientPartage` : attribut de type ArrayList de Client qui fait référence à la liste de la classe ServeurSimple
 
-> `nom` : attribut de type String qui fait référence au nom du client.
+`nom` : attribut de type String qui fait référence au nom du client.
 
 - supprimerClient() : supprime le client de la liste lorsqu'il se déconnecte pour libérer de l'espace
 
@@ -71,11 +71,11 @@ On implémente Runnable pour pouvoir se servir de Thread.
 
 Variables Locales :
 
-> `boK` de type booléen qui permet l'ouverture en continu du serveur
+`boK` de type booléen qui permet l'ouverture en continu du serveur
 
-> `in` de type BufferedReader qui permet de lire le message du client
+`in` de type BufferedReader qui permet de lire le message du client
 
-> `out` de type PrintWriter qui sert à afficher quelque chose au client
+`out` de type PrintWriter qui sert à afficher quelque chose au client
 
 Cette méthode est le cœur de la classe GerantDeClient.
 Lorsqu'un client est connecté, elle lui demande un nom d'utilisateur.
