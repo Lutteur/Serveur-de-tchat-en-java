@@ -1,6 +1,6 @@
 # 🌐​ Serveur de tchat en Java
 
-## 📁 ​Le projet
+## 📁 ​Le projet académique
 
 Le but de ce projet académique était de concevoir un serveur de
 tchat multi-clients en Java, où un serveur se lance et plusieurs
@@ -88,3 +88,7 @@ Enfin si le message est bien valide alors on fait une boucle qui parcours les cl
 d'envoyer le message de ce client à tous les clients (sauf à lui-même).
 
 > Le client est supprimé dès qu'il quitte le serveur à l'aide de `Ctrl + c`
+
+## Featuring
+
+Noël Paul et Coignard Pierre
